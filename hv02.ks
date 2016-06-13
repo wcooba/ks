@@ -14,7 +14,7 @@ keyboard --vckeymap=gb --xlayouts='gb'
 lang en_GB.UTF-8
 
 # Network information
-network  --bootproto=static --device=enp0s3 --gateway=10.0.0.1 --ip=10.0.0.33 --nameserver=10.0.0.1,10.0.0.6 --netmask=255.255.255.0 --onboot=yes --noipv6
+network  --bootproto=static --device=em1 --gateway=10.0.0.1 --ip=10.0.0.33 --nameserver=10.0.0.1,10.0.0.6 --netmask=255.255.255.0 --onboot=yes --noipv6
 #network  --bootproto=dhcp --device=em2 --onboot=off --ipv6=auto
 #network  --bootproto=dhcp --device=em3 --onboot=off --ipv6=auto
 #network  --bootproto=dhcp --device=em4 --onboot=off --ipv6=auto
